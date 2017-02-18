@@ -1,5 +1,6 @@
 package mobi.model;
 
+import mobi.model.settlements.Settlement;
 import org.springframework.jdbc.core.RowMapper;
 
 import java.sql.ResultSet;

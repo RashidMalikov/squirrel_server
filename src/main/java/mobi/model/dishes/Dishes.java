@@ -1,32 +1,32 @@
-package mobi.model;
+package mobi.model.dishes;
 
 import java.util.List;
 
-public class SettlementDTO {
+public class Dishes {
 
-    private List<Settlement> created;
-    private List<Settlement> updated;
+    private List<Dish> created;
+    private List<Dish> updated;
     private List<Long> deleted;
 
-    public SettlementDTO(List<Settlement> created, List<Settlement> updated, List<Long> deleted) {
+    public Dishes(List<Dish> created, List<Dish> updated, List<Long> deleted) {
         this.created = created;
         this.updated = updated;
         this.deleted = deleted;
     }
 
-    public List<Settlement> getCreated() {
+    public List getCreated() {
         return created;
     }
 
-    public void setCreated(List<Settlement> created) {
+    public void setCreated(List created) {
         this.created = created;
     }
 
-    public List<Settlement> getUpdated() {
+    public List getUpdated() {
         return updated;
     }
 
-    public void setUpdated(List<Settlement> updated) {
+    public void setUpdated(List updated) {
         this.updated = updated;
     }
 
@@ -37,4 +37,5 @@ public class SettlementDTO {
     public void setDeleted(List<Long> deleted) {
         this.deleted = deleted;
     }
+
 }

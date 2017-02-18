@@ -1,35 +1,32 @@
 package mobi.model;
 
-import com.fasterxml.jackson.annotation.JsonRootName;
-import com.fasterxml.jackson.databind.annotation.JsonNaming;
-
 import java.util.List;
 
-public class ObjectDTO<T> {
+public class Settlements {
 
-    private List<T> created;
-    private List<T> updated;
+    private List created;
+    private List updated;
     private List<Long> deleted;
 
-    public ObjectDTO(List<T> created, List<T> updated, List<Long> deleted) {
+    public Settlements(List created, List updated, List<Long> deleted) {
         this.created = created;
         this.updated = updated;
         this.deleted = deleted;
     }
 
-    public List<T> getCreated() {
+    public List getCreated() {
         return created;
     }
 
-    public void setCreated(List<T> created) {
+    public void setCreated(List created) {
         this.created = created;
     }
 
-    public List<T> getUpdated() {
+    public List getUpdated() {
         return updated;
     }
 
-    public void setUpdated(List<T> updated) {
+    public void setUpdated(List updated) {
         this.updated = updated;
     }
 

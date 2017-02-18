@@ -1,5 +1,6 @@
-package mobi.model;
+package mobi.model.dishes;
 
+import mobi.model.dishes.Dish;
 import org.springframework.jdbc.core.RowMapper;
 
 import java.sql.ResultSet;

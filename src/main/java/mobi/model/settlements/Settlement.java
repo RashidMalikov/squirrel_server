@@ -1,4 +1,4 @@
-package mobi.model;
+package mobi.model.settlements;
 
 public class Settlement {
     private long id;

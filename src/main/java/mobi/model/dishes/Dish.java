@@ -1,4 +1,4 @@
-package mobi.model;
+package mobi.model.dishes;
 
 public class Dish {
 
