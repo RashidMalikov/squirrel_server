@@ -1,7 +1,5 @@
 package mobi.model.settlements;
 
-import mobi.model.Settlements;
-
 public class ObjectSettlement {
 
     private Settlements settlements;

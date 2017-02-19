@@ -1,4 +1,4 @@
-package mobi.model;
+package mobi.model.settlements;
 
 import mobi.model.settlements.Settlement;
 import org.springframework.jdbc.core.RowMapper;
