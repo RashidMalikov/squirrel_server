@@ -40,7 +40,7 @@ public class DataController {
     private JdbcTemplate jdbcTemplate;
 
     @RequestMapping("/settlements")
-    public ObjectSettlement greeting(@RequestParam(value = "time", defaultValue = "0") String time) {
+    public ObjectSettlement settlemets(@RequestParam(value = "time", defaultValue = "0") String time) {
 
         return new ObjectSettlement(getSettlement(time));
     }
